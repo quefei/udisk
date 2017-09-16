@@ -9,3 +9,5 @@
 
 3. 选择 `RUN CentOS-7-x86_64-NetInstall-1708.iso`
 
+4. 选择 `Install CentOS 7`
+
