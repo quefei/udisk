@@ -3,16 +3,5 @@
 
 
 
-```php
-  
-  curl -sS http://git.oschina.net/quefei/mycommand/raw/master/install.sh | bash
-  
-  curl -sS http://git.oschina.net/quefei/mycommand/raw/master/uninstall.sh | bash
-  
-  
-  curl -sS http://git.oschina.net/quefei/mycommand/raw/master/install_test.sh | bash
-  
-  curl -sS http://git.oschina.net/quefei/mycommand/raw/master/uninstall_part.sh | bash
-  
-```
+1. 选择 `启动自定义ISO/IMG文件（LMT目录）`
 
