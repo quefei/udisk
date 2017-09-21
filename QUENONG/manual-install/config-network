@@ -69,7 +69,7 @@ sed -i "s/^SELINUX=enforcing/SELINUX=disabled/g"  /etc/selinux/config
 sed -i "s/^SELINUX=permissive/SELINUX=disabled/g" /etc/selinux/config
 
 # 下载 quenong
-curl -sS https://raw.githubusercontent.com/quefei/quenong/master/install.sh | bash
+curl -sS https://gitee.com/quefei/quenong/raw/master/install.sh | bash
 
 # 重启服务器
 shutdown -r +1
