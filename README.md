@@ -12,7 +12,7 @@
 
 
 ### 1. 制作启动U盘
-使用 [老毛桃U盘启动盘制作工具](http://laomaotao.net/down/2016/1015/4932.html) 将U盘制作成启动U盘，并且将卷标命名为 `QUENONG`。
+使用 [老毛桃U盘启动盘制作工具](http://laomaotao.net/down/2016/1015/4932.html) 将U盘制作成启动U盘，并且将其卷标命名为 `QUENONG`。
 
 
 ### 2. 下载 Myudisk
