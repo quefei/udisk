@@ -50,6 +50,7 @@ for DEVICE_CONFIG in ${DEVICE_CONFIG_LIST}; do
         sed -i "/^DNS[0-9]*=/d" ${DEVICE_CONFIG}
         sed -i "/^$/d"          ${DEVICE_CONFIG}
         
+######custom######
 cat >> ${DEVICE_CONFIG} <<-"EOF"
 BOOTPROTO=static
 ONBOOT=yes
