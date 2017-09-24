@@ -20,6 +20,10 @@
 * 根据 *.txt 文件的提示下载 `CentOS-7-x86_64-Minimal-1708.iso`，并拷贝到相应位置；
 * 根据 *.txt 文件的提示下载 `CentOS-7-x86_64-NetInstall-1708.iso`，并拷贝到相应位置；
 * 删除 *.txt 文件。
+    
+* 从码云下载 [QUENONG](https://gitee.com/quefei/myudisk/repository/archive/master) 目录
+* 从阿里云下载 [CentOS-7-x86_64-Minimal-1708.iso](http://mirrors.aliyun.com/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1708.iso)
+* 从百度云下载 [CentOS-7-x86_64-NetInstall-1708.iso](https://pan.baidu.com/s/1dEQfc7v)
 
 
 ## （二）自动安装 CentOS-7.4-x86_64
