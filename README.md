@@ -9,11 +9,11 @@
 
 ## 制作 Myudisk
 
-1. 制作启动U盘：
+1.制作启动U盘：
 
 使用 [老毛桃U盘启动盘制作工具][2] 将U盘制作成启动U盘，并且将其卷标命名为 **QUENONG**。
 
-2. 下载 Myudisk：
+2.下载 Myudisk：
 
  - 下载 [Myudisk][3]，将 **QUENONG** 目录下的所有文件拷贝到U盘的根目录下；
  - 下载 [CentOS-7-x86_64-Minimal-1708.iso][4]，替换U盘里的 **CentOS-7-x86_64-Minimal-1708.txt**；
