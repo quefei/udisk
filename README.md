@@ -17,3 +17,4 @@
 
 ### 2. 下载 Myudisk
 * 下载 Myudisk 的 `QUENONG` 目录，并将该目录下的所有文件拷贝到U盘的根目录下；
+* 根据 `*.txt` 文件的提示下载 `CentOS-7-x86_64-Minimal-1708.iso`，并将其拷贝到相应位置；
