@@ -34,6 +34,12 @@
  - 选择 [02] 自动搜索并列出LMT目录下所有文件
  - 选择 [03] RUN CentOS-7-x86_64-NetInstall-1708.iso
  - 选择 Install CentOS 7
+ - 等待安装完成
+
+3.系统账户：
+
+ - 用户：root ，密码：123456
+ - 用户：admin，密码：123456
 
 ## 手动安装 CentOS-7.4-x86_64
 
