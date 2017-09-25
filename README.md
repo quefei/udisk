@@ -65,7 +65,12 @@
 3.配置网络：
 
  - 如果网卡驱动默认已经安装；
- - 手动挂载U盘，例如 
+ - 手动挂载U盘，例如 `fdisk  -l;  mount  -t  vfat  /dev/sdb1  /mnt`
+ - 运行 config-network，例如 `cd  /mnt/manual-install;  ./config-network`
+
+4.获得纯净的系统：
+
+删除 **/usr/local/bin** 目录下的文件即可。
 
   [1]: http://laomaotao.net/down/2016/1015/4932.html
   [2]: http://laomaotao.net/down/2016/1015/4932.html
