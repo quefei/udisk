@@ -17,9 +17,29 @@
 
 ## 制作 Myudisk
 
-**1. 制作启动U盘：**
+**1.1 制作启动U盘：**
 
 使用 [老毛桃U盘启动盘制作工具][5] 将U盘制作成启动U盘，并且将其卷标命名为 `QUENONG`。
+
+**1.2 下载 Myudisk：**
+
+可以依次下载 [Myudisk][6]，[CentOS-7-x86_64-Minimal-1708.iso][7]，[CentOS-7-x86_64-NetInstall-1708.iso][8]，然后执行如下操作：
+
+ - 将 QUENONG 目录下的所有文件拷贝到U盘的根目录下；
+ - 用 CentOS-7-x86_64-Minimal-1708.iso 替换U盘里的 CentOS-7-x86_64-Minimal-1708.txt；
+ - 用 CentOS-7-x86_64-NetInstall-1708.iso 替换U盘里的 CentOS-7-x86_64-NetInstall-1708.txt；
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   [1]: https://github.com/quefei/myudisk#%E9%87%8D%E8%A6%81%E8%AF%B4%E6%98%8E
@@ -27,3 +47,6 @@
   [3]: https://github.com/quefei/myudisk#%E8%87%AA%E5%8A%A8%E5%AE%89%E8%A3%85-centos-74-x86_64
   [4]: https://github.com/quefei/myudisk#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85-centos-74-x86_64
   [5]: http://laomaotao.net/down/2016/1015/4932.html
+  [6]: https://gitee.com/quefei/myudisk/repository/archive/master
+  [7]: http://mirrors.aliyun.com/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1708.iso
+  [8]: https://pan.baidu.com/s/1dEQfc7v
