@@ -59,7 +59,7 @@
  - 选择 [03] RUN CentOS-7-x86_64-NetInstall-1708.iso；
  - 选中 Test this media & install CentOS 7 并按下 Tab 键；
  - 将内容编辑为 `vmlinuz  initrd=initrd.img  inst.stage2=hd:/dev/sdb1  quiet  inst.gpt`；
- - 设置日期和时间、键盘、语言支持、安装位置等；
+ - 设置日期和时间、键盘、语言支持、安装位置等选项；
  - 等待安装完成并重启。
 
 3.配置网络：
