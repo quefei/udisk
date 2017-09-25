@@ -23,7 +23,7 @@
 
 **1.2 下载 Myudisk：**
 
-可以依次下载 [Myudisk][6]，[CentOS-7-x86_64-Minimal-1708.iso][7]，[CentOS-7-x86_64-NetInstall-1708.iso][8]，然后执行如下操作：
+可以依次下载 [Myudisk][6]，[CentOS-7-x86_64-Minimal-1708.iso][7]，[CentOS-7-x86_64-NetInstall-1708.iso][8]，然后：
 
  - 将 `QUENONG` 目录下的所有文件拷贝到U盘的根目录；
  - 用 CentOS-7-x86_64-Minimal-1708.iso 替换U盘里的 CentOS-7-x86_64-Minimal-1708.txt；
