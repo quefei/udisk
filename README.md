@@ -63,6 +63,42 @@
 
 ## 手动安装 CentOS-7.4-x86_64
 
+**3.1 配置 IP：**
+
+打开U盘 manual-install 目录下的 `config-network` 文件，搜索 ######custom######，修改 IP `192.168.1.10` 及网关 `192.168.1.1`。
+
+**3.2 开始安装：**
+
+ - 开机从U盘启动
+ - 依次执行：
+
+    [10] 启动自定义ISO/IMG文件（LMT目录）
+
+    [02] 自动搜索并列出LMT目录下所有文件
+
+    [03] RUN CentOS-7-x86_64-NetInstall-1708.iso
+
+ - 选中 Test this media & install CentOS 7 并按下 `Tab` 键
+ - 将内容修改为 `vmlinuz initrd=initrd.img inst.stage2=hd:/dev/sdb1 quiet inst.gpt`
+ - 设置日期和时间，键盘，语言支持，安装位置等选项
+ - 等待安装完成并重启
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   [1]: https://github.com/quefei/myudisk#%E9%87%8D%E8%A6%81%E8%AF%B4%E6%98%8E
   [2]: https://github.com/quefei/myudisk#%E5%88%B6%E4%BD%9C-myudisk
