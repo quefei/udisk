@@ -4,8 +4,8 @@
 
  - [重要说明][1]
  - [制作 Myudisk][2]
- - 自动安装 CentOS-7.4-x86_64
- - 手动安装 CentOS-7.4-x86_64
+ - [自动安装 CentOS-7.4-x86_64][3]
+ - [手动安装 CentOS-7.4-x86_64][4]
 
 ## 重要说明
 
@@ -19,9 +19,11 @@
 
 1. 制作启动U盘：
 
-使用 [老毛桃U盘启动盘制作工具][3] 将U盘制作成启动U盘，并且将其卷标命名为 `QUENONG`。
+使用 [老毛桃U盘启动盘制作工具][5] 将U盘制作成启动U盘，并且将其卷标命名为 `QUENONG`。
 
 
   [1]: https://github.com/quefei/myudisk#%E9%87%8D%E8%A6%81%E8%AF%B4%E6%98%8E
   [2]: https://github.com/quefei/myudisk#%E5%88%B6%E4%BD%9C-myudisk
-  [3]: http://laomaotao.net/down/2016/1015/4932.html
+  [3]: https://github.com/quefei/myudisk#%E8%87%AA%E5%8A%A8%E5%AE%89%E8%A3%85-centos-74-x86_64
+  [4]: https://github.com/quefei/myudisk#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85-centos-74-x86_64
+  [5]: http://laomaotao.net/down/2016/1015/4932.html
