@@ -30,7 +30,10 @@
 2.开始安装：
 
  - 开机从U盘启动；
- - 
+ - 选择 [10] 启动自定义ISO/IMG文件（LMT目录）
+ - 选择 [02] 自动搜索并列出LMT目录下所有文件
+ - 选择 [03] RUN CentOS-7-x86_64-NetInstall-1708.iso
+ - 选择 Install CentOS 7
 
 ## 手动安装 CentOS-7.4-x86_64
 
