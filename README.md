@@ -83,22 +83,15 @@
  - 设置日期和时间，键盘，语言支持，安装位置等选项
  - 等待安装完成并重启
 
+**3.3 配置网络：**
 
+ - 如果网卡驱动默认已经安装
+ - 挂载U盘，例如 `fdisk -l; mount -t vfat /dev/sdb1 /mnt`
+ - 运行 `config-network`，例如 `cd /mnt/manual-install; ./config-network`
 
+**3.4 获得纯净的系统：**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+删除 `/usr/local/bin` 目录下的文件。
 
   [1]: https://github.com/quefei/myudisk#%E9%87%8D%E8%A6%81%E8%AF%B4%E6%98%8E
   [2]: https://github.com/quefei/myudisk#%E5%88%B6%E4%BD%9C-myudisk
