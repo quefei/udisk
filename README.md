@@ -30,11 +30,11 @@
 2.开始安装：
 
  - 开机从U盘启动；
- - 选择 [10] 启动自定义ISO/IMG文件（LMT目录）
- - 选择 [02] 自动搜索并列出LMT目录下所有文件
- - 选择 [03] RUN CentOS-7-x86_64-NetInstall-1708.iso
- - 选择 Install CentOS 7
- - 等待安装完成
+ - 选择 [10] 启动自定义ISO/IMG文件（LMT目录）；
+ - 选择 [02] 自动搜索并列出LMT目录下所有文件；
+ - 选择 [03] RUN CentOS-7-x86_64-NetInstall-1708.iso；
+ - 选择 Install CentOS 7；
+ - 等待安装完成。
 
 3.系统账户：
 
@@ -47,6 +47,25 @@
 
 ## 手动安装 CentOS-7.4-x86_64
 
+1.配置 IP 地址：
+
+打开U盘 manual-install 目录下的 config-network 文件，搜索 ######custom######，替换 IP 192.168.1.10 及网关 192.168.1.1。
+
+2.开始安装：
+
+ - 开机从U盘启动；
+ - 选择 [10] 启动自定义ISO/IMG文件（LMT目录）；
+ - 选择 [02] 自动搜索并列出LMT目录下所有文件；
+ - 选择 [03] RUN CentOS-7-x86_64-NetInstall-1708.iso；
+ - 选中 Test this media & install CentOS 7 并按下 Tab 键；
+ - 将内容编辑为 `vmlinuz  initrd=initrd.img  inst.stage2=hd:/dev/sdb1  quiet  inst.gpt`；
+ - 设置日期和时间、键盘、语言支持、安装位置等；
+ - 等待安装完成并重启。
+
+3.配置网络：
+
+ - 如果网卡驱动默认已经安装；
+ - 手动挂载U盘，例如 
 
   [1]: http://laomaotao.net/down/2016/1015/4932.html
   [2]: http://laomaotao.net/down/2016/1015/4932.html
