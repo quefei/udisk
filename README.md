@@ -6,8 +6,12 @@
  - [制作 Myudisk][2]
  - [自动安装 CentOS-7.4-x86_64][3]
  - [手动安装 CentOS-7.4-x86_64][4]
- - [手动安装网卡驱动（附录）][5]
- - [使用磁盘剩余空间（附录）][6]
+
+附录：
+
+ - [手动安装网卡驱动][5]
+ - [使用磁盘剩余空间][6]
+ - [增加磁盘并配置LVM][7]
 
 ## 重要说明
 
@@ -21,17 +25,17 @@
 
 **1.1 制作启动U盘：**
 
-使用 [老毛桃U盘启动盘制作工具][7]，先将U盘制作成启动U盘，再将U盘的卷标重命名为 `QUENONG`。
+使用 [老毛桃U盘启动盘制作工具][8]，先将U盘制作成启动U盘，再将U盘的卷标重命名为 `QUENONG`。
 
 **1.2 下载 Myudisk：**
 
-可以依次下载 [Myudisk][8]，[CentOS-7-x86_64-Minimal-1708.iso][9]，[CentOS-7-x86_64-NetInstall-1708.iso][10]。然后
+可以依次下载 [Myudisk][9]，[CentOS-7-x86_64-Minimal-1708.iso][10]，[CentOS-7-x86_64-NetInstall-1708.iso][11]。然后
 
  - 将 `QUENONG` 目录下的所有文件拷贝到U盘的 `根目录`
  - 用 CentOS-7-x86_64-Minimal-1708.iso 替换U盘里的 CentOS-7-x86_64-Minimal-1708.txt
  - 用 CentOS-7-x86_64-NetInstall-1708.iso 替换U盘里的 CentOS-7-x86_64-NetInstall-1708.txt
 
-也可以下载 Myudisk 的完整打包 [QUENONG.zip][11]，然后将该目录下的所有文件拷贝到U盘的 `根目录`（MD5: d1cecbcd25561c9534ab901ba0b87e16）。
+也可以下载 Myudisk 的完整打包 [QUENONG.zip][12]，然后将该目录下的所有文件拷贝到U盘的 `根目录`（MD5: d1cecbcd25561c9534ab901ba0b87e16）。
 
 ## 自动安装 CentOS-7.4-x86_64
 
@@ -44,12 +48,12 @@
  - 开机从U盘启动
  - 依次执行：
 
-    [10] 启动自定义ISO/IMG文件（LMT目录）
-
+    \[10] 启动自定义ISO/IMG文件（LMT目录）
+    
     [02] 自动搜索并列出LMT目录下所有文件
-
+    
     [03] RUN CentOS-7-x86_64-NetInstall-1708.iso
-
+    
     Install CentOS 7
 
  - 等待安装完成
@@ -74,7 +78,7 @@
  - 开机从U盘启动
  - 依次执行：
 
-    [10] 启动自定义ISO/IMG文件（LMT目录）
+    \[10] 启动自定义ISO/IMG文件（LMT目录）
 
     [02] 自动搜索并列出LMT目录下所有文件
 
@@ -102,8 +106,9 @@
   [4]: https://github.com/quefei/myudisk#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85-centos-74-x86_64
   [5]: https://github.com/quefei/docs/blob/master/quenong/nic-driver.md
   [6]: https://github.com/quefei/docs/blob/master/quenong/logical-volume.md
-  [7]: http://laomaotao.net/down/2016/1015/4932.html
-  [8]: https://gitee.com/quefei/myudisk/repository/archive/master
-  [9]: http://mirrors.aliyun.com/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1708.iso
-  [10]: https://pan.baidu.com/s/1dEQfc7v
-  [11]: http://pan.baidu.com/s/1eSlHJUy
+  [7]: https://github.com/quefei/docs/blob/master/quenong/add-disk.md
+  [8]: http://laomaotao.net/down/2016/1015/4932.html
+  [9]: https://gitee.com/quefei/myudisk/repository/archive/master
+  [10]: http://mirrors.aliyun.com/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1708.iso
+  [11]: https://pan.baidu.com/s/1dEQfc7v
+  [12]: http://pan.baidu.com/s/1eSlHJUy
